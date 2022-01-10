@@ -1,0 +1,8 @@
+file=open("file.txt","r")
+#print(file.readable())
+#line=file.readlines()
+#print(line[1])
+line=file.readline()
+#line=file.read()
+print(line)
+file.close()
